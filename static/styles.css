@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #cccccc;
+
+}
+
+
+.active-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #bbbbbb;
+}
+
+.active-slot {
+    height: 1.5em;
+    width: 10vw;
+    border-style:solid;
+
+    background-color: #aaaaaa;
+
+}
+
+.next-button {
+    height: 1.5em;
+    width: 100px;
+    border-style: solid;
+
+    background-color: #999999;
+
+}
